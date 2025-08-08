@@ -1,5 +1,7 @@
+import ProgressBar from "./components/progress-bar";
+
 function App() {
-  return <div className="font-bold text-3xl underline">Hi</div>;
+  return <ProgressBar />;
 }
 
 export default App;
