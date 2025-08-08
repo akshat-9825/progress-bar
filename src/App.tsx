@@ -1,7 +1,7 @@
 import ProgressBar from "./components/progress-bar";
 
 function App() {
-  return <ProgressBar />;
+  return <ProgressBar percentage={50} />;
 }
 
 export default App;
